@@ -1,27 +1,8 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  line-height: 0;
-} */
-
-/* body {
-  font-family: 'Epilogue', sans-serif;
-  background-color: #FBFBFB;
-} */
-
-/* .container {
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
-  min-width: 375px;
-  width: 375px;
-} */
 
 /* SALE-SECTION */
 .sale-section {
-  background-color: #FBFBFB;
-  font-family: 'Epilogue', sans-serif;
+  background-color: #fbfbfb;
+  font-family: "Epilogue", sans-serif;
 }
 
 .sale-section .sale-container {
@@ -61,7 +42,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 80px
+  width: 80px;
 }
 
 .small-photos-list .small-photo {
@@ -118,7 +99,7 @@
   font-weight: 400;
   line-height: 1.1666;
   letter-spacing: -0.24px;
-  color:#14141480;
+  color: #14141480;
   text-decoration: line-through;
 }
 
@@ -149,11 +130,11 @@
 }
 
 .collapsible-content .collapsible-text {
-  font-family: 'Epilogue', sans-serif;
+  font-family: "Epilogue", sans-serif;
   font-size: 14px;
   line-height: 1.2857;
   letter-spacing: -0.14px;
-  color:#14141480;
+  color: #14141480;
 }
 
 .collapsible-content pre.collapsible-text {
@@ -166,7 +147,7 @@
     padding-left: 32px;
     padding-right: 32px;
   }
-  
+
   .sale-container .section-content {
     width: 704px;
     padding-top: 84px;
@@ -174,11 +155,11 @@
     padding-left: 66px;
   }
 
-  .sale-section-heading {
+  .section-content .sale-section-heading {
     font-size: 40px;
     line-height: 1.1;
     letter-spacing: -0.8px;
-    color: #1E2827;
+    color: #1e2827;
   }
 
   .watch-photo-container .small-photos-list {
@@ -195,7 +176,6 @@
     letter-spacing: -0.76px;
   }
 }
-  
 
 /* DESKTOP VERSION*/
 @media screen and (min-width: 1280px) {
@@ -203,7 +183,7 @@
     padding-left: 132px;
     padding-right: 132px;
   }
-  
+
   .sale-container .section-content {
     padding-top: 124px;
     padding-right: 97px;
@@ -212,4 +192,3 @@
     width: fit-content;
   }
 }
-
