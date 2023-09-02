@@ -1,8 +1,9 @@
-
 /* SALE-SECTION */
 .sale-section {
   background-color: #fbfbfb;
   font-family: "Epilogue", sans-serif;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .sale-section .sale-container {
@@ -143,6 +144,11 @@
 
 /* TABLET */
 @media screen and (min-width: 768px) {
+  .sale-section {
+    margin-top: 128px;
+    margin-bottom: 128px;
+  }
+
   .sale-section .sale-container {
     padding-left: 32px;
     padding-right: 32px;
@@ -179,6 +185,11 @@
 
 /* DESKTOP VERSION*/
 @media screen and (min-width: 1280px) {
+  .sale-section {
+    margin-top: 80px;
+    margin-bottom: 160px;
+  }
+
   .sale-section .sale-container {
     padding-left: 132px;
     padding-right: 132px;
